@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-1fdgynx7-_+fa#zaepxtl1d%=8w$w$2@e@k-^lcp4p@2y3ou4j'
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'management.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'game.db',
-        'USER': 'postgres',
-        'PASSWORD': 'zameer...2023',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME':
+        'USER': 
+        'PASSWORD': 
+        'HOST':
+        'PORT': 
     }
 }
 
