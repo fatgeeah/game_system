@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color:#D8D4F2;
+}
+.nav {
+    width: 100%;
+    height: 65px;
+    background-color: #8EB897;
+}
+.nav a{
+    font-family: 'Bebas Neue', sans-serif;   
+    text-decoration: none;
+    color:black;
+    padding: 12px 15px;
+    font-size: 20px;
+    transition: 0.6s all;
+}
+.nav a:hover{
+    color: #023C40;
+    background-color: #D8D4F2;
+}
+.nav .search{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top:-5px;
+    margin-left: 700px;
+}
+.header h2{
+    font-weight: 800;
+    font-size: 40px;
+    margin-top:70px;
+    margin-left: 450px;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+h6{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top:15px;
+    margin-left: 600px;
+    font-size: 40;
+    color: black;
+}
+.card-header{
+    background-color:#8EB897;
+}
+.card-header h8{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+    margin-left: 20px ;
+}
+.card-header h9{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 35px;
+    color: white;
+    margin-left: 5px;
+}
+.table-responsive .table th{
+    font-family: 'Josefin Sans', sans-serif;
+     color: black;
+}
+.table-responsive .table{
+   background-color: #D8D4F2;
+   color: #2892D7;
+   font-size: 25px;
+   font-family: 'Josefin Sans', sans-serif;
+}
+.table-responsive{
+    background-color:#D8D4F2;
+}
+.container-fluid{
+    background-color: #D8D4F2;
+}
+.btn4:hover{
+    border: 3px 5px  #335C81; 
+    background-color:  white ;
+}
+.btn4{
+    background-color: #8EB897 ;
+    font-size: 20px;
+    margin-left: 10px;
+    border: 3px 5px #335C81;
+    border-radius: 5px;
+    color: black;
+} 
+.search.search-add-wrapper{
+ color: white;
+}
+.form{
+    border-radius: 10px;
+    background-color: #8EB897;
+    margin-top: 150px;
+    color: black;
+    width: 500px;
+    height: 300px;
+    margin-left: 600px;
+}
+.form label{
+    font-weight: 800;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+.form input {
+    background-color: #a3a3a3;
+    color: black;
+    font-weight: 800;
+    margin-left: 10px;
+}
+.button {
+    margin-top: 40px;
+    margin-left: 200px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(20, 20, 20);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .svgIcon {
+    width: 12px;
+    transition-duration: 0.3s;
+  }
+  
+  .svgIcon path {
+    fill: white;
+  }
+  
+  .button:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background-color:  #335C81;
+    align-items: center;
+  }
+  
+  .button:hover .svgIcon {
+    /* width: 20px; */
+    transition-duration: 0.3s;
+    transform: translateY(-200%);
+  }
+  
+  .button::before {
+    position: absolute;
+    bottom: -20px;
+    content: "Upload";
+    color: white;
+    /* transition-duration: .3s; */
+    font-size: 0px;
+  }
+  
+  .button:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    bottom: unset;
+    /* transform: translateY(-30px); */
+    transition-duration: 0.3s;
+  }
+  
